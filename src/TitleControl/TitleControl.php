@@ -104,7 +104,7 @@ class TitleControl extends Nette\Application\UI\Component
     $items = array_filter($this->getItems());
     $translator = $this->getTranslator();
     if ($translator !== null) {
-      $items = array_map([$this, 'translateMulti'], $items);
+      $items = array_map([$this, 'translate'], $items);
     }
     $res = implode($this->getSeparator(), $items);
     return $res;
