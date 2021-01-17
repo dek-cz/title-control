@@ -2,6 +2,8 @@ Title Control
 ============
 
 [![Build Status](https://github.com/vrestihnat/title-control/workflows/CI/badge.svg)](https://github.com/vrestihnat/title-control/actions?query=workflow%3ACI+branch%3Amain)
+[![Downloads this Month](https://img.shields.io/packagist/dm/vrestihnat/title-control.svg)](https://packagist.org/packages/vrestihnat/title-control)
+[![Latest stable](https://img.shields.io/packagist/v/vrestihnat/title-control.svg)](https://packagist.org/packages/vrestihnat/title-control)
 
 
 Installation
