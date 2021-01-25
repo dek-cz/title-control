@@ -48,3 +48,13 @@ And render it in your Latte template:
 </body>
 </html>
 ```
+
+We can also use multi title with a separator. Default separator is: ' | '
+```php
+    $control->addItem('One')->addItem('Two'); // 'One | Two'
+```
+
+Change the separator:
+```php
+    $control->setSeparator(' ~ ');
+```
