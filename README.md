@@ -58,3 +58,5 @@ Change the separator:
 ```php
     $control->setSeparator(' ~ ');
 ```
+We can also use nette translator
+
