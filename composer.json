@@ -5,8 +5,8 @@
   "description": "Nette control for managing title in HTML header.",
   "keywords": ["title", "header", "component", "nette"],
   "support": {
-    "email": "bfj@bflm.eu",
-    "issues": "https://github.com/vrestihnat/title-control/issues"
+    "email": "jan.zaruba@dek-cz.com",
+    "issues": "https://github.com/dek-cz/title-control/issues"
   },
   "authors": [
     {
