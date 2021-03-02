@@ -1,5 +1,5 @@
 {
-  "name": "vrestihnat/title-control",
+  "name": "dek-cz/title-control",
   "type": "library",
   "license": "BSD-3-Clause",
   "description": "Nette control for managing title in HTML header.",
@@ -11,7 +11,7 @@
   "authors": [
     {
       "name": "Jan Záruba",
-      "email": "bfj@bflm.eu"
+      "email": "jan.zaruba@dek-cz.com"
     }
   ],
   "require": {
