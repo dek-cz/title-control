@@ -29,6 +29,9 @@ jobs:
           - ''
           - '--prefer-stable'
           - '--prefer-stable --prefer-lowest'
+        exclude:
+          - php: 8.0
+            composer_args: '--prefer-stable --prefer-lowest'
     name: PHP ${{ matrix.php }} ${{ matrix.composer_args }}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
