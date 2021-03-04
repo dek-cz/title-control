@@ -2,8 +2,8 @@ Title Control
 ============
 
 [![Build Status](https://github.com/dek-cz/title-control/workflows/CI/badge.svg)](https://github.com/dek-cz/title-control/actions?query=workflow%3ACI+branch%3Amain)
-[![Downloads this Month](https://img.shields.io/packagist/dm/vrestihnat/title-control.svg)](https://packagist.org/packages/vrestihnat/title-control)
-[![Latest stable](https://img.shields.io/packagist/v/vrestihnat/title-control.svg)](https://packagist.org/packages/vrestihnat/title-control)
+[![Downloads this Month](https://img.shields.io/packagist/dm/dek-cz/title-control.svg)](https://packagist.org/packages/dek-cz/title-control)
+[![Latest stable](https://img.shields.io/packagist/v/dek-cz/title-control.svg)](https://packagist.org/packages/dek-cz/title-control)
 [![Coverage Status](https://coveralls.io/repos/github/dek-cz/title-control/badge.svg?branch=main)](https://coveralls.io/github/dek-cz/title-control?branch=main)
 
 
@@ -13,7 +13,7 @@ Installation
 Via Composer:
 
 ```sh
-$ composer require vrestihnat/title-control
+$ composer require dek-cz/title-control
 ```
 
 
