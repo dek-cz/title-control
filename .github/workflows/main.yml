@@ -43,12 +43,16 @@ jobs:
           COMPOSER_ARGS: ${{ matrix.composer_args }}
         run: composer update --no-interaction --no-progress --prefer-dist $COMPOSER_ARGS
       - name: Tests
-        run: vendor/bin/phpunit
+        run: "vendor/bin/phpunit --coverage-clover=coverage.xml"
       
-
-      - name: Coveralls
+      - name: "Send code coverage report to Codecov.io"
         env:
+          CODECOV_TOKEN: "${{ secrets.CODECOV_TOKEN }}"
+        run: "bash <(curl -s https://codecov.io/bash) || true"  
+       
+      - name: Upload coverage results to Coveralls
+        env:
+          COVERALLS_SERVICE_NAME: github
           COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          composer global require cedx/coveralls
-          coveralls clover.xml
+        run: "vendor/bin/php-coveralls --config tests/coveralls.yml -v"
+        
