@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace VrestihnatTests\Unit;
+namespace DekczTests\Unit;
 
-use Vrestihnat\TitleControl\TitleControl;
+use Dekcz\TitleControl\TitleControl;
 
-use VrestihnatTests\Translator\FakeTranslator;
+use DekczTests\Translator\FakeTranslator;
 
 class TitleControlTest extends Test
 {

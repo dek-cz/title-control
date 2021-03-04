@@ -21,12 +21,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Vrestihnat\\TitleControl\\": "src/TitleControl/"
+      "Dekcz\\TitleControl\\": "src/TitleControl/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "VrestihnatTests\\": "tests/"
+      "DekczTests\\": "tests/"
     }
   },
   "config": {

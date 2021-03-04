@@ -24,13 +24,13 @@ First register the control factory in your config:
 ```yaml
 services:
     -
-        implement: Vrestihnat\TitleControl\ITitleControlFactory
+        implement: Dekcz\TitleControl\ITitleControlFactory
 
 ```
 
 Use the control factory in your presenter:
 ```php
-protected function createComponentTitle(): Vrestihnat\TitleControl\TitleControl
+protected function createComponentTitle(): Dekcz\TitleControl\TitleControl
 {
     $control = $this->titleControlFactory->create();
     $control->setTitle('My title');

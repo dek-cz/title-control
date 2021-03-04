@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace Vrestihnat\TitleControl;
+namespace Dekcz\TitleControl;
 
 interface ITitleControlFactory
 {

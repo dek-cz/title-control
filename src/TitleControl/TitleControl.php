@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vrestihnat\TitleControl;
+namespace Dekcz\TitleControl;
 
 use Nette;
 use Nette\Utils\Html;

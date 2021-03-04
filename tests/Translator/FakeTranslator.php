@@ -1,9 +1,9 @@
 <?php
 
-namespace VrestihnatTests\Translator;
+namespace DekczTests\Translator;
 
 use Nette\Localization\ITranslator;
-use VrestihnatTests\Unit\Test;
+use DekczTests\Unit\Test;
 
 class FakeTranslator implements ITranslator
 {
