@@ -38,6 +38,31 @@
     "phpstan/phpstan-nette": "^0.12.14",
     "spaze/phpstan-disallowed-calls": "^1.1",
     "phpunit/php-code-coverage": "^9.2",
-    "php-coveralls/php-coveralls": "^2.4"
+    "php-coveralls/php-coveralls": "^2.4",
+    "ninjify/qa": "^0.12.1",
+    "phpstan/phpstan-strict-rules": "^0.12.9"
+  },
+  "scripts": {
+    "qa": [
+      "linter src tests",
+      "codesniffer src tests"
+    ],
+    "ci": [
+      "@qa",
+      "@phpstan",
+      "@coverage"
+    ],
+    "phpunit": [
+      "phpunit tests --colors=always"
+    ],
+    "coverage": [
+      "phpunit tests --colors=always --coverage-clover=coverage.xml"
+    ],
+    "phpstan": [
+      "vendor/phpstan/phpstan/phpstan.phar analyse -l max -c phpstan.neon src"
+    ],
+    "cfixer": [
+      "codefixer src tests"
+    ]
   }
 }

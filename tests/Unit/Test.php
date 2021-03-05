@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 namespace DekczTests\Unit;
 
@@ -9,9 +9,9 @@ use PHPUnit\Framework\TestCase;
 abstract class Test extends TestCase
 {
 
-  const TITLETEST = 'MyTitle';
-  const ITEMONE = 'One';
-  const ITEMTWO = 'Two';
-  const SEPARATOR = ' ~ ';
+    public const TITLETEST = 'MyTitle';
+    public const ITEMONE = 'One';
+    public const ITEMTWO = 'Two';
+    public const SEPARATOR = ' ~ ';
 
 }
